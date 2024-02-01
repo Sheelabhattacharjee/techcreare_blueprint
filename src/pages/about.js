@@ -127,7 +127,7 @@ const About = () => {
     </section>
     <section className="self-stretch bg-secondary-light-10 box-border overflow-hidden flex flex-col items-center justify-center py-[120px] px-5 max-w-full text-left text-35xl text-secondary-dark-20 font-sub-headings-sub-heading-26px-semibold border-t-[1px] border-solid border-secondary-light-10 mq1250:pt-[78px] mq1250:pb-[78px] mq1250:box-border mq750:gap-[30px] mq750:pt-[51px] mq750:pb-[51px] mq750:box-border">
       <div className="w-[1240px] flex flex-row flex-wrap items-start justify-center gap-[60px] max-w-full mq750:gap-[30px]">
-        <div className="flex-1 flex flex-col items-start justify-center gap-[15px] min-w-[360px] max-w-full">
+        <div className=" lg:gap-6 flex-1 flex flex-col items-start justify-center gap-[15px] min-w-[360px] max-w-full">
           <h1 className="m-0 self-stretch h-[65px] relative text-inherit font-bold font-inherit inline-block mq450:text-13xl mq750:text-24xl">{`Our History & Expertise`}</h1>
           <div className="self-stretch relative text-lg leading-[27px] font-medium font-paragraphs-para-18px-semibold text-secondary-dark-40">
             It's our commitment to innovation, data-driven strategies, and a
@@ -144,7 +144,7 @@ const About = () => {
             />
           </button>
           <img
-            className="self-stretch h-[794px] relative rounded-31xl max-w-full overflow-hidden shrink-0 object-cover"
+            className="self-stretch h-[700px] w-[550px] relative rounded-31xl max-w-full overflow-hidden shrink-0 object-cover"
             alt=""
             src="/image-11@2x.png"
           />
@@ -177,25 +177,23 @@ const About = () => {
     </section>
      {/* <History1 /> */}
     <section className="self-stretch flex flex-col items-center justify-center max-w-full text-center text-41xl text-secondary-light-10 font-sub-headings-sub-heading-26px-semibold">
-      <div className="self-stretch [background:radial-gradient(50%_50%_at_50%_50%,_#180032,_#05000a)] overflow-hidden flex flex-col items-center justify-center py-[100px] px-5 box-border min-h-[567px] max-w-full mq450:pt-[65px] mq450:pb-[65px] mq450:box-border">
-        <div className="w-[840px] flex flex-col items-center justify-center gap-[15px] min-w-[360px] max-w-full">
+      <div className="  self-stretch [background:radial-gradient(50%_50%_at_50%_50%,_#180032,_#05000a)] overflow-hidden flex flex-col items-center justify-center py-[100px] px-5 box-border min-h-[567px] max-w-full mq450:pt-[65px] mq450:pb-[65px] mq450:box-border">
+        <div className="  w-[840px] flex flex-col items-center justify-center gap-[15px] min-w-[360px] max-w-full">
           <h1 className="m-0 self-stretch h-36 relative text-inherit font-bold font-inherit inline-block mq450:text-17xl mq750:text-29xl">
             The Brilliant Minds Driving Our Marketing Agency's Success
           </h1>
-          <div className="self-stretch relative text-lg leading-[27px] font-medium font-paragraphs-para-18px-semibold text-secondary-light-40 hidden">
+          {/* <div className="self-stretch relative text-lg leading-[27px] font-medium font-paragraphs-para-18px-semibold text-secondary-light-40 hidden">
             We believe in the power of personal stories, and here, we celebrate
             voices that often go unheard.
-          </div>
-          <button className="cursor-pointer [border:none] py-[15px] px-[30px] bg-[transparent] rounded-26xl-7 [background:linear-gradient(140.99deg,_#4743ff,_#8712e3)] flex flex-row items-center justify-center box-border gap-[10px] min-w-[140px] whitespace-nowrap">
-            <b className="relative text-base leading-[28px] font-paragraphs-para-18px-semibold text-secondary-light-10 text-left">
-              Get Started Now
-            </b>
-            <img
-              className="h-6 w-6 relative overflow-hidden shrink-0"
-              alt=""
-              src="/btn-icons.svg"
-            />
-          </button>
+          </div> */}
+          <button className="group rounded-full [background:linear-gradient(140.99deg,_#aace88,_#211e3b_76.04%,_#211e3b_84.38%,_#211e3b)] flex flex-row items-center justify-center py-[15px] px-[30px] box-border gap-[10px] min-w-[140px] text-left text-base text-secondary-light-10">
+              <b className="relative leading-[28px]">Get Started Now</b>
+              <img
+                className="relative w-6 h-6 overflow-hidden shrink-0 object-cover transition-transform duration-300 ease-in-out transform group-hover:translate-x-1"
+                alt=""
+                src="/btn-icons@2x.png"
+              />
+            </button>
         </div>
       </div>
       <div className="self-stretch flex flex-col items-center justify-center py-0 px-5 box-border min-h-[1082px] max-w-full z-[1] mt-[-150px] text-left text-sm font-paragraphs-para-18px-semibold mq750:gap-[20px]">
@@ -365,28 +363,17 @@ const About = () => {
             placeholder="Type Your Email"
             type="text"
           />
-          {/* <button className="cursor-pointer [border:none] py-[15px] px-[25px] bg-[transparent] rounded-26xl-7 [background:linear-gradient(140.99deg,_#4743ff,_#8712e3)] shadow-[4px_4px_30px_rgba(0,_0,_0,_0.04)] flex flex-row items-center justify-center box-border gap-[9.14px] min-w-[140px] whitespace-nowrap">
-            <div className="relative text-lg leading-[32px] font-semibold font-paragraphs-para-18px-semibold text-secondary-light-10 text-left">
-              Get Marketing Tips
-            </div>
-            <img
-              className="h-6 w-6 relative overflow-hidden shrink-0"
-              alt=""
-              src="/btn-icons-9.svg"
-            />
-          </button> */}
-             <button className=" cursor-pointer group rounded-medium-border flex flex-row items-center py-3 px-6 box-border gap-4 min-w-36 text-base transition-transform duration-300 ease-in-out  [background:linear-gradient(140.99deg,_#aace88,_#211e3b_76.04%,_#211e3b_84.38%,_#211e3b)] hover:translate-x-1">
-             <div className="relative text-lg leading-[32px] font-semibold font-paragraphs-para-18px-semibold text-secondary-light-10 text-left">
-              Get Marketing Tips
-            </div>
-                <img
-                  className="relative w-6 h-6 overflow-hidden shrink-0 object-cover transition-transform duration-300 ease-in-out transform group-hover:translate-x-1"
-                  alt=""
-                  src="/btn-icons@2x.png"
-                />
-              </button>
+          
+          <button className="group rounded-full [background:linear-gradient(140.99deg,_#aace88,_#211e3b_76.04%,_#211e3b_84.38%,_#211e3b)] flex flex-row items-center justify-center py-[15px] px-[30px] box-border gap-[10px] min-w-[140px] text-left text-base text-secondary-light-10 hover:translate-x-1 transition-transform duration-300 ease-in-out transform">
+              <b className="relative leading-[28px]">Get Marketing Tips</b>
+              <img
+                className="relative w-6 h-6 overflow-hidden shrink-0 object-cover transition-transform duration-300 ease-in-out transform"
+                alt=""
+                src="/btn-icons@2x.png"
+              />
+            </button>
         </div>
-        <div className=" self-stretch flex flex-row flex-wrap items-center lg:justify-start py-2.5 px-0 gap-[10px] text-base text-secondary-light-40"
+        <div className=" self-stretch flex flex-row flex-wrap items-center justify-center lg:justify-start py-2.5 px-0 gap-[15px] text-base text-secondary-light-40"
               data-aos-delay="500">
         <div className="shrink-0 flex flex-row items-center justify-start gap-[4px] hover:scale-110 cursor-pointer transition-all-ease duration-500">
                 <img

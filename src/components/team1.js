@@ -24,25 +24,25 @@ const Team1 = ({ propBackgroundImage }) => {
         <div className="self-stretch relative leading-[20px] font-medium">
           Follow Me:
         </div>
-        <div className="self-stretch flex flex-row items-center justify-start gap-[8px] mq450:flex-wrap">
-          <div className="h-[29.9px] w-[30px] rounded-481xl bg-secondary-light-10 shadow-[4px_4px_10px_rgba(0,_0,_0,_0.08)] box-border overflow-hidden shrink-0 flex flex-col items-center justify-center py-1.5 px-[5px] border-[1px] border-solid border-secondary-light-60">
+        <div className=" self-stretch flex flex-row items-center justify-start gap-[8px] mq450:flex-wrap">
+          <div className=" hover:-translate-y-1  h-[29.9px] w-[30px] rounded-481xl bg-secondary-light-10 shadow-[4px_4px_10px_rgba(0,_0,_0,_0.08)] box-border overflow-hidden shrink-0 flex flex-col items-center justify-center py-1.5 px-[5px] border-[1px] border-solid border-secondary-light-60">
             <img
-              className="w-[18px] h-[17.9px] relative"
+              className=" cursor-pointer  w-[18px] h-[17.9px] relative"
               alt=""
               src="/group-2.svg"
             />
           </div>
-          <div className="h-[30px] w-[30px] rounded-481xl bg-secondary-light-10 shadow-[4px_4px_10px_rgba(0,_0,_0,_0.08)] box-border overflow-hidden shrink-0 flex flex-col items-center justify-center py-1.5 px-[5px] border-[1px] border-solid border-secondary-light-60">
+          <div className=" hover:-translate-y-1  h-[30px] w-[30px] rounded-481xl bg-secondary-light-10 shadow-[4px_4px_10px_rgba(0,_0,_0,_0.08)] box-border overflow-hidden shrink-0 flex flex-col items-center justify-center py-1.5 px-[5px] border-[1px] border-solid border-secondary-light-60">
             <img
-              className="w-[18px] h-[18px] relative overflow-hidden shrink-0"
+              className=" cursor-pointer w-[18px] h-[18px] relative overflow-hidden shrink-0"
               loading="eager"
               alt=""
               src="/linkedin1.svg"
             />
           </div>
-          <div className="h-[30px] w-[30px] rounded-481xl bg-secondary-light-10 shadow-[4px_4px_10px_rgba(0,_0,_0,_0.08)] box-border overflow-hidden shrink-0 flex flex-col items-center justify-center py-1.5 px-[5px] border-[1px] border-solid border-secondary-light-60">
+          <div className=" hover:-translate-y-1 h-[30px] w-[30px] rounded-481xl bg-secondary-light-10 shadow-[4px_4px_10px_rgba(0,_0,_0,_0.08)] box-border overflow-hidden shrink-0 flex flex-col items-center justify-center py-1.5 px-[5px] border-[1px] border-solid border-secondary-light-60">
             <img
-              className="w-[18px] h-[18px] relative overflow-hidden shrink-0"
+              className=" cursor-pointer w-[18px] h-[18px] relative overflow-hidden shrink-0"
               loading="eager"
               alt=""
               src="/instagram1.svg"
